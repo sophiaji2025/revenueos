@@ -25,7 +25,7 @@ export function EmailPreview({ channelLabel, subject, body, toneLabel }: EmailPr
               <div className="mt-2 text-sm font-medium text-white">{subject}</div>
             </div>
           )}
-          <div className="pt-4 text-sm leading-7 text-white/70 whitespace-pre-wrap">{body}</div>
+          <div className="pt-4 whitespace-pre-wrap text-sm leading-7 text-white/70">{body}</div>
         </div>
         <div className="grid grid-cols-2 gap-3 text-xs text-white/55">
           <div className="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-3">
