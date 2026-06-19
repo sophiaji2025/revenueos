@@ -153,7 +153,7 @@ function StakeholderNodeCard({ node, index }: StakeholderNodeCardProps) {
         </div>
         <div className="h-1 bg-white/[0.08] rounded-full overflow-hidden">
           <div
-            className={cn('h-full rounded-full', cfg.bg.replace('bg-', 'bg-').replace('/15', '/60'))}
+            className={cn('h-full rounded-full', cfg.bg.replace('/15', '/60'))}
             style={{ width: `${node.influenceLevel}%` }}
           />
         </div>
